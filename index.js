@@ -1,9 +1,7 @@
-
-
-
-
-const baliseTitreH4 = document.querySelector("h4")
-baliseTitreH4.style.background = "blue"
-
-const questionContainer = document.querySelector(".onclick");
-console.log(questionContainer);
+document.addEventListener('DOMContentLoaded', function() {
+    const clickButton = document.getElementById('clickButton');
+    
+    clickButton.addEventListener('click', function() {
+        alert("Clarisse c'est vraiment la plus belle ");
+    });
+}); 
